@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.panel {
+    background-color: #fff;
+    display: flex;
+    min-height: 50vh;
+    width: min(960px, 100%);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.pricing-plan {
+    padding: 1rem 2rem;
+    border-right: 1px solid #e1f1ff;
+}
+
+.pricing-plan:last-of-type {
+    border-right: none;
+}
+
+.pricing-header {
+    color: #888;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pricing-features-item {
+    color: #016ff9;
+    font-size: 12px;
+    list-style: none;
+    padding: 15px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-top:1px solid #e1f1ff;
+    border-bottom: 1px solid #e1f1ff;  
+}
+
+.pricing-features-item:first-of-type {
+    border-bottom: none;
+}
+
+.pricing-features {
+    padding: 50px 1rem 25px;
+}
+
+.pricing-price {
+    font-size: 32px;
+    color: #016ff9;
+    font-weight: 700;
+    display: block;
+}
+
+.pricing-button {
+    display: inline-block;
+    color: #348efe;
+    margin: 25px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: 1px solid #9dd1ff;
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover {
+    background-color: #e1f1ff;
+}
+
+.is-featured {
+    background-color: #48aaff;
+    color: #fff;
+    transition: background-color 200ms ease-in-out;
+}
+
+.is-featured:hover {
+    background-color: #348efe;
+}
+
+@media (max-width: 900px) {
+    .panel {
+        flex-direction: column;
+    }
+    .pricing-plan {
+        border-right: none;
+        padding: 1rem 0;
+    }
+}
