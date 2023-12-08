@@ -18,8 +18,8 @@ This project is my personal solution for the Pricing Panel exercise featured in 
 
 ## Links
 
-- Solution URL: []
-- Live Site URL: []
+- web URL: [https://github.com/jiehlarae/pricing-panel.git]
+- Live Site URL: [https://jiehlarae.github.io/pricing-panel/]
 
 ## Built with
 
